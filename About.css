@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 80vh;
+  background: linear-gradient(
+    to right, rgb(8, 8, 8) 50%, 
+    rgb(119, 66, 6) 80%);
+}
+.whole-head {
+  justify-content: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px 10px;
+  padding: 0px 30px;
+}
+.navigation {
+  font-size: 17px;
+  font-style: normal;
+  text-align: left;
+}
+.navigation a {
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+  text-shadow: 5px 2px 15px;
+  font-weight: 400;
+  margin: 0px 20px;
+  transition: 1s;
+}
+.navigation a:hover {
+  cursor: pointer;
+  transition: 0s;
+  color: rgb(250, 250, 250);
+}
+.span-number {
+  margin: 0px 20px;
+  text-align: right;
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 2px 15px;
+  font-weight: 100;
+  color: rgb(255, 115, 0);
+  transition: 1s;
+}
+.whole main {
+
+  margin: 20px 10px;
+  padding: 7px 20px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+}
+.the-first {
+  margin: 60px;
+  padding: 30px;
+  line-height: 10px;
+  font-weight: 100;
+  text-decoration: underline;
+}
+h1 {
+  line-height: 25px;
+}
+.mail {
+  line-break: loose;
+  margin: 60px 70px;
+  padding: 20px;
+  line-height: 10px;
+  font-weight: lighter;
+}
+.main a {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+  line-height: 1px;
+  font-size: 18px;
+}
+.the-paragraph {
+
+  margin: 50px;
+  padding: 30px;
+  line-height: px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+}
+.country {
+  margin-top: 15px;
+  padding-left: 80px;
+  text-decoration: unset;
+}
+.country p {
+  color: white;
+  font-family: sans-serif;
+  line-height: 1px;
+  font-size: 17px;
+  font-weight: 50;
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+  display: inline;
+  cursor: pointer;
+  width: 200px;
+}
+.buttons {
+  margin: 60px;
+  padding: 0px;
+}
+.buttons a {
+  margin: 20px 10px;
+  padding: 7px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(245, 81, 5);
+  border-radius: 15px;
+  transition: 2s;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  border-color: rgb(245, 81, 5);
+  transform: scale(1.2);
+  transition: 1s;
+}
+.buttons :hover {
+  border-color: transparent;
+  transition: 0s;
+  border-style: groove;
+  box-shadow: 3px 2px 5px;
+}

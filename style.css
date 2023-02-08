@@ -1,0 +1,105 @@
+body {
+  height: 80vh;
+  background: linear-gradient(to right, rgb(29, 28, 28) 50%, rgb(119, 66, 6) 80%);
+
+}
+.whole-head {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 20px 10px;
+  padding: 0px 30px;
+}
+.navigation {
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  text-align: left;
+}
+.navigation a {
+  text-decoration: none;
+  text-shadow: 5px 2px 15px;
+  font-weight: 400;
+  color: rgb(255, 115, 0);
+  margin: 0px 20px;
+  transition: 0s;
+}
+.navigation a:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: rgb(245, 243, 241);
+}
+.the-main {
+  margin: 90px 80px;
+  padding: 30px 40px;
+
+}
+.span-1 {
+  color: white;
+  line-height: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 5px 2px 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+}
+.span-2 {
+  color: rgb(255, 115, 0);
+  font-size: 100px;
+  font-weight: 1000;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+.span-3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 2px 20px;
+  font-style: normal;
+}
+.buttons a {
+  margin: 20px 10px;
+  padding: 7px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(245, 81, 5);
+  border-radius: 15px;
+  transition: 2s;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  border-color: rgb(245, 81, 5);
+}
+.buttons a:hover {
+  border-color: transparent;
+  transition: 0s;
+  border-style: groove;
+  box-shadow: 3px 2px 5px;
+}
+.links {
+  margin-top: 70px;
+  padding-left: 80px;
+}
+.links :hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.links img:hover {
+  box-shadow: 5px 2px 15px;
+}
+.links img {
+  margin: 10px 10px;
+  padding: 7px 10px;
+  display: inline;
+  cursor: pointer;
+  width: 20px;
+  border-radius: 19px;
+}
+.git {
+  margin: 10px 10px;
+  padding: 7px 10px;
+  display: inline;
+  cursor: pointer;
+  width: 800px;
+  border-radius: 19px;
+}

@@ -1,0 +1,86 @@
+body {
+  height: 80vh;
+  background: linear-gradient(to right, rgb(8, 8, 8) 50%, rgb(119, 66, 6) 100%);
+}
+.whole-head {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 20px 10px;
+  padding: 0px 30px;
+}
+.navigation {
+  margin: 20px 10px;
+  padding: 0px 30px;
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  text-align: left;
+}
+.navigation a {
+  text-decoration: none;
+  text-shadow: 5px 2px 15px;
+  font-weight: 400;
+  color: rgb(255, 115, 0);
+  margin: 0px 20px;
+  transition: 1s;
+}
+.navigation a:hover {
+  cursor: pointer;
+  transition: 0s;
+  color: rgb(245, 243, 241);
+}
+.intouch {
+  text-align: center;
+  padding: 70px;
+  box-shadow: 5px 2px 17px;
+
+}
+.span-4 {
+  color: rgb(255, 115, 0);
+  font-size: 100px;
+  font-weight: 1000;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+.span-6 {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 2px 20px;
+  font-style: normal;
+}
+.imgs {
+  color: transparent;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 5px 2px 15px;
+}
+.imgs img {
+  margin: 50px;
+  padding: 7px 10px;
+  cursor: pointer;
+  width: 50px;
+  border-radius: 19px;
+}
+.imgs img:hover {
+  box-shadow: 5px 2px 15px;
+}
+.imgs :hover {
+  color: rgb(255, 115, 0);
+  text-shadow: 5px 2px 15px;
+  transform: scale(1.2);
+  transition: 1s;
+}
+.git {
+  margin: 10px 10px;
+  padding: 7px 10px;
+  display: inline;
+  cursor: pointer;
+  width: 800px;
+  border-radius: 19px;
+}
