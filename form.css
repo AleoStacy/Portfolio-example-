@@ -1,0 +1,97 @@
+body{
+  background-color: #1a1a1a;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 10px;
+  padding-inline: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  background-color: #0a192f;
+  border-radius: 0rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.form-heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(243, 247, 250);
+  font-size: 1.2em;
+  background-color: transparent;
+  align-self: center;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 10px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(23, 23, 23);
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: rgb(204, 214, 246);
+  padding-inline: 1em;
+}
+
+.sendMessage-btn {
+  cursor: pointer;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: rgb(255, 115, 0);
+  font-weight: bold;
+  outline: 1px solid rgb(255, 115, 0);
+  transition: all ease-in-out 0.3s;
+}
+
+.sendMessage-btn:hover {
+  transition: all ease-in-out 0.3s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.form-card1 {
+  border-radius: 0rem;
+  transition: all 0.3s;
+}
+.form-card2 {
+  border-radius: 0rem;
+  transition: all 0.2s;
+
+}
+.myimage{
+  width: 25rem;
+  height: 32rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0rem;
+}
